@@ -10,11 +10,11 @@ android {
         }
     }
 
-    compileSdkVersion 21
-    buildToolsVersion '21.0.0'
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
 
     defaultConfig {
-        applicationId "com.afollestad.cabinet"
+        applicationId "com.afollestad.cabinet2"
         minSdkVersion 16
         targetSdkVersion 21
         versionCode 71
@@ -27,7 +27,7 @@ android {
         }
         release {
             signingConfig signingConfigs.production
-            runProguard false
+//            runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
